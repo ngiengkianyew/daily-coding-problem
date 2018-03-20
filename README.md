@@ -26,3 +26,13 @@ For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120
 Follow-up: what if you can't use division?
 
 [Solution](solutions/problem_2.py)
+
+---
+
+#### Problem 3
+
+This problem was asked by Google.
+
+Given the root to a binary tree, implement serialize(root), which serializes the tree into a string, and deserialize(s), which deserializes the string back into the tree.
+
+[Solution](solutions/problem_3.py)
