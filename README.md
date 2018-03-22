@@ -50,3 +50,20 @@ For example, the input [3, 4, -1, 1] should give 2. The input [1, 2, 0] should g
 You can modify the input array in-place.
 
 [Solution](solutions/problem_4.py)
+
+---
+
+#### Problem 5
+
+This problem was asked by Jane Street.
+
+cons(a, b) constructs a pair, and car(pair) and cdr(pair) returns the first and last element of that pair. For example, car(cons(3, 4)) returns 3, and cdr(cons(3, 4)) returns 4.
+
+Given this implementation of cons:
+```python
+def cons(a, b):
+    return lambda f : f(a, b)
+```
+Implement car and cdr.
+
+[Solution](solutions/problem_5.py)
