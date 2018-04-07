@@ -11,7 +11,7 @@ For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
 
 Bonus: Can you do this in one pass?
 
-[Solution](solutions/problem_1.py)
+[Solution](solutions/problem_01.py)
 
 ---
 
@@ -25,7 +25,7 @@ For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120
 
 Follow-up: what if you can't use division?
 
-[Solution](solutions/problem_2.py)
+[Solution](solutions/problem_02.py)
 
 ---
 
@@ -35,7 +35,7 @@ This problem was asked by Google.
 
 Given the root to a binary tree, implement serialize(root), which serializes the tree into a string, and deserialize(s), which deserializes the string back into the tree.
 
-[Solution](solutions/problem_3.py)
+[Solution](solutions/problem_03.py)
 
 ---
 
@@ -49,7 +49,7 @@ For example, the input [3, 4, -1, 1] should give 2. The input [1, 2, 0] should g
 
 You can modify the input array in-place.
 
-[Solution](solutions/problem_4.py)
+[Solution](solutions/problem_04.py)
 
 ---
 
@@ -66,7 +66,7 @@ def cons(a, b):
 ```
 Implement car and cdr.
 
-[Solution](solutions/problem_5.py)
+[Solution](solutions/problem_05.py)
 
 ---
 
@@ -78,7 +78,7 @@ An XOR linked list is a more memory efficient doubly linked list. Instead of eac
 
 If using a language that has no pointers (such as Python), you can assume you have access to get_pointer and dereference_pointer functions that converts between nodes and memory addresses.
 
-[Solution](solutions/problem_6.py)
+[Solution](solutions/problem_06.py)
 
 ---
 
@@ -92,7 +92,7 @@ For example, the message '111' would give 3, since it could be decoded as 'aaa',
 
 You can assume that the messages are decodable. For example, '001' is not allowed.
 
-[Solution](solutions/problem_7.py)
+[Solution](solutions/problem_07.py)
 
 ---
 
@@ -116,7 +116,7 @@ For example, the following tree has 5 unival subtrees:
  1   1
 ```
 
-[Solution](solutions/problem_8.py)
+[Solution](solutions/problem_08.py)
 
 ---
 
@@ -128,7 +128,7 @@ Given a list of integers, write a function that returns the largest sum of non-a
 
 For example, [2, 4, 6, 8] should return 12, since we pick 4 and 8. [5, 1, 1, 5] should return 10, since we pick 5 and 5.
 
-[Solution](solutions/problem_9.py)
+[Solution](solutions/problem_09.py)
 
 ---
 
