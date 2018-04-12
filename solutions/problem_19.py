@@ -1,17 +1,37 @@
+import sys
+
+
 def get_minimum_painting_cost(cost_matrix, num_houses, num_colors):
-    for i in range(1, num_houses):
+    if not cost_matrix:
+        return 0
+
+    prev_house_min = 0
+    prev_house_min_index = -1
+    prev_house_second_min = 0
+
+    for i in range(num_houses):
+        curr_house_min = sys.maxsize
+        curr_house_second_min = sys.maxsize
+        curr_house_min_index = 0
+
         for j in range(num_colors):
-            # get minimum possible cost of painting the previous
-            # house using a different color
-            candidates = cost_matrix[i-1][:j]
-            if j < num_colors - 1:
-                candidates.extend(cost_matrix[i-1][j+1:])
+            if prev_house_min_index == j:
+                cost_matrix[i][j] += prev_house_second_min
+            else:
+                cost_matrix[i][j] += prev_house_min
 
-            # and add it to the current cost of painting
-            cost_matrix[i][j] += min(candidates)
+            if curr_house_min > cost_matrix[i][j]:
+                curr_house_second_min = curr_house_min
+                curr_house_min = cost_matrix[i][j]
+                curr_house_min_index = j
+            elif curr_house_second_min > cost_matrix[i][j]:
+                curr_house_second_min = cost_matrix[i][j]
 
-    # return the minimal cumulative cost on the last house
-    return min(cost_matrix[-1])
+        prev_house_min = curr_house_min
+        prev_house_second_min = curr_house_second_min
+        prev_house_min_index = curr_house_min_index
+
+    return min(cost_matrix[num_houses - 1])
 
 
 cost_matrix = \
