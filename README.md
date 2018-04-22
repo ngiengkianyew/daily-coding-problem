@@ -547,7 +547,16 @@ Do this in linear time and in-place.
 
 For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should become ['R', 'R', 'R', 'G', 'G', 'B', 'B'].
 
-
 [Solution](solutions/problem_35.py)
+
+---
+
+#### Problem 36
+
+This problem was asked by Dropbox.
+
+Given the root to a binary search tree, find the second largest node in the tree.
+
+[Solution](solutions/problem_36.py)
 
 ---
