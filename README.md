@@ -836,3 +836,18 @@ Implement an efficient sudoku solver.
 [Solution](solutions/problem_54.py)
 
 ---
+
+#### Problem 55
+
+This problem was asked by Microsoft.
+
+Implement a URL shortener with the following methods:
+
+* shorten(url), which shortens the url into a six-character alphanumeric string, such as zLg6wl.
+* restore(short), which expands the shortened string into the original url. If no such shortened string exists, return null.
+
+Hint: What if we enter the same URL twice?
+
+[Solution](solutions/problem_55.py)
+
+---
