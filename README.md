@@ -851,3 +851,13 @@ Hint: What if we enter the same URL twice?
 [Solution](solutions/problem_55.py)
 
 ---
+
+#### Problem 56
+
+This problem was asked by Google.
+
+Given an undirected graph represented as an adjacency matrix and an integer k, write a function to determine whether each vertex in the graph can be colored such that no two adjacent vertices share the same color using at most k colors.
+
+[Solution](solutions/problem_56.py)
+
+---
