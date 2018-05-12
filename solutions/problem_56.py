@@ -3,8 +3,6 @@ def can_color_graph(adjacency_matrix, k):
     for row in adjacency_matrix:
         max_adjacencies = max(max_adjacencies, sum(row))
 
-    print("max_adjacencies: {}".format(max_adjacencies))
-
     return k > max_adjacencies
 
 
