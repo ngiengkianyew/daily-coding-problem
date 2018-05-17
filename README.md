@@ -915,3 +915,17 @@ Given the multiset {15, 5, 20, 10, 35}, it would return false, since we can't sp
 [Solution](solutions/problem_60.py)
 
 ---
+
+#### Problem 61
+
+This problem was asked by Google.
+
+Implement integer exponentiation. That is, implement the pow(x, y) function, where x and y are integers and returns x^y.
+
+Do this faster than the naive method of repeated multiplication.
+
+For example, pow(2, 10) should return 1024.
+
+[Solution](solutions/problem_61.py)
+
+---
