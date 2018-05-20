@@ -31,13 +31,11 @@ def get_potential_knight_moves(start, size, visited):
                    pos.x >= 0 and pos.x < size and
                    pos.y >= 0 and pos.y < size and
                    pos not in visited]
-    # print("valid_moves: {}".format(valid_moves))
 
     return valid_moves
 
 
 def run_knights_tour(start, size, visited):
-    # print("visited: {}".format(visited))
     if len(visited) == size * size:
         return 1
 
@@ -57,16 +55,13 @@ def count_knights_tours(size):
     for i in range(size):
         for j in range(size):
             start = Position(i, j)
-            print("start: {}".format(start))
             count += run_knights_tour(start, size, set([start]))
-            print("count: {}".format(count))
 
-    print(count)
     return count
 
 
-# assert count_knights_tours(1) == 1
-# assert count_knights_tours(2) == 0
-# assert count_knights_tours(3) == 0
-# assert count_knights_tours(4) == 0
+assert count_knights_tours(1) == 1
+assert count_knights_tours(2) == 0
+assert count_knights_tours(3) == 0
+assert count_knights_tours(4) == 0
 assert count_knights_tours(5) == 1728
