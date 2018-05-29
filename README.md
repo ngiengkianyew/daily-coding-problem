@@ -1133,3 +1133,14 @@ Should return null, since we have an infinite loop.
 [Solution](solutions/problem_72.py)
 
 ---
+
+#### Problem 73
+
+This problem was asked by Google.
+
+Given the head of a singly linked list, reverse it in-place.
+
+[Solution](solutions/problem_73.py)
+
+---
+
