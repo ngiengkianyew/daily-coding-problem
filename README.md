@@ -1240,3 +1240,14 @@ For example, given `[(1, 3), (5, 8), (4, 10), (20, 25)]`, you should return `[(1
 [Solution](solutions/problem_77.py)
 
 ---
+
+#### Problem 78
+
+This problem was asked recently by Google.
+
+Given k sorted singly linked lists, write a function to merge all the lists into one sorted singly linked list.
+
+[Solution](solutions/problem_78.py)
+
+---
+
