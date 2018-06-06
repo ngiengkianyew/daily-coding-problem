@@ -37,7 +37,8 @@ def get_list(head):
 
 
 def merge_lists(all_lists):
-    merged_head, merged_tail = None, None
+    merged_head = Node(None)
+    merged_tail = merged_head
     candidates = list()
     counter = 0
     for llist in all_lists:
@@ -46,17 +47,15 @@ def merge_lists(all_lists):
 
     while candidates:
         _, _, new_node = heappop(candidates)
+
         if new_node.next:
             heappush(candidates, (new_node.next.val, counter, new_node.next))
             counter += 1
-        if not merged_head:
-            merged_head = new_node
-            merged_tail = new_node
-        else:
-            merged_tail.next = new_node
-            merged_tail = new_node
 
-    return merged_head
+        merged_tail.next = new_node
+        merged_tail = new_node
+
+    return merged_head.next
 
 
 assert get_list(merge_lists([get_nodes([1, 4, 6]),
@@ -64,3 +63,4 @@ assert get_list(merge_lists([get_nodes([1, 4, 6]),
 assert get_list(merge_lists([get_nodes([1, 4, 6]),
                              get_nodes([2, 3, 9]),
                              get_nodes([1, 3, 7])])) == [1, 1, 2, 3, 3, 4, 6, 7, 9]
+
