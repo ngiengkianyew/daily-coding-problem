@@ -1365,3 +1365,15 @@ Given three 32-bit integers x, y, and b, return x if b is 1 and y if b is 0, usi
 [Solution](solutions/problem_85.py)
 
 ---
+
+#### Problem 86
+
+This problem was asked by Google.
+
+Given a string of parentheses, write a function to compute the minimum number of parentheses to be removed to make the string valid (i.e. each open parenthesis is eventually closed).
+
+For example, given the string "()())()", you should return 1. Given the string ")(", you should return 2, since we must remove all of them.
+
+[Solution](solutions/problem_86.py)
+
+---
