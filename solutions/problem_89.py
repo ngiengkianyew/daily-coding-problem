@@ -17,14 +17,14 @@ def is_valid_bst_node_helper(node, lb, ub):
     return not node  # if node is None, it's a valid BST
 
 
-def is_valid_bst_node(root):
+def is_valid_bst(root):
     return is_valid_bst_node_helper(root, -sys.maxsize, sys.maxsize)
 
 
 # Tests
 
 
-assert is_valid_bst_node(None)
+assert is_valid_bst(None)
 
 a = Node(3)
 b = Node(2)
@@ -38,7 +38,7 @@ a.right = c
 b.left = d
 b.right = e
 c.left = f
-assert is_valid_bst_node(a)
+assert is_valid_bst(a)
 
 
 a = Node(1)
@@ -53,7 +53,7 @@ a.right = c
 b.left = d
 b.right = e
 c.left = f
-assert not is_valid_bst_node(a)
+assert not is_valid_bst(a)
 
 a = Node(3)
 b = Node(2)
@@ -67,4 +67,4 @@ a.right = c
 b.left = d
 b.right = e
 c.left = f
-assert not is_valid_bst_node(a)
+assert not is_valid_bst(a)
