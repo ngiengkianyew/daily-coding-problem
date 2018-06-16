@@ -1442,3 +1442,22 @@ Given an integer n and a list of integers l, write a function that randomly gene
 [Solution](solutions/problem_90.py)
 
 ---
+
+#### Problem 91
+
+This problem was asked by Dropbox.
+
+What does the below code snippet print out? How can we fix the anonymous functions to behave as we'd expect?
+
+```python
+functions = []
+for i in range(10):
+    functions.append(lambda : i)
+
+for f in functions:
+    print(f())
+```
+
+[Solution](solutions/problem_91.py)
+
+---
