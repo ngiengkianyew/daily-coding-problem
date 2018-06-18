@@ -1475,3 +1475,15 @@ For example, given `{'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC1
 [Solution](solutions/problem_92.py)
 
 ---
+
+#### Problem 93
+
+This problem was asked by Apple.
+
+Given a tree, find the largest tree/subtree that is a BST.
+
+Given a tree, return the size of the largest tree/subtree that is a BST.
+
+[Solution](solutions/problem_93.py)
+
+---
