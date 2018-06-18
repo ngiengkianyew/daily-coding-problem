@@ -85,3 +85,16 @@ b.left = d
 b.right = e
 c.left = f
 assert get_largest_bst(a) == (b, 3)
+
+a = Node(3)
+b = Node(2)
+c = Node(6)
+d = Node(1)
+e = Node(1)
+f = Node(4)
+a.left = b
+a.right = c
+b.left = d
+b.right = e
+c.left = f
+assert get_largest_bst(a) == (c, 2)
