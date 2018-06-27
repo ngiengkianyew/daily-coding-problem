@@ -9,7 +9,6 @@ def get_cont_arr(arr, target):
         elif summed > target:
             summed -= arr[start]
             start += 1
-            continue
         else:
             summed += arr[i]
             end = i + 1
