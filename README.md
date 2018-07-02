@@ -1710,3 +1710,21 @@ For example, `[2, 0, 1, 0]` returns `true` while `[1, 1, 0, 1]` returns `false`.
 [Solution](solutions/problem_106.py)
 
 ---
+
+#### Problem 107
+
+This problem was asked by Microsoft.
+
+Print the nodes in a binary tree level-wise. For example, the following should print `1, 2, 3, 4, 5`.
+
+```
+  1
+ / \
+2   3
+   / \
+  4   5
+```
+
+[Solution](solutions/problem_107.py)
+
+---
