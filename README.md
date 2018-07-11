@@ -1834,3 +1834,15 @@ Given two non-empty binary trees s and t, check whether tree t has exactly the s
 [Solution](solutions/problem_115.py)
 
 ---
+
+#### Problem 116
+
+This problem was asked by Jane Street.
+
+Generate a finite, but an arbitrarily large binary tree quickly in `O(1)`.
+
+That is, `generate()` should return a tree whose size is unbounded but finite.
+
+[Solution](solutions/problem_116.py)
+
+---
