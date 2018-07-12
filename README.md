@@ -1846,3 +1846,13 @@ That is, `generate()` should return a tree whose size is unbounded but finite.
 [Solution](solutions/problem_116.py)
 
 ---
+
+#### Problem 117
+
+This problem was asked by Facebook.
+
+Given a binary tree, return the level of the tree with minimum sum.
+
+[Solution](solutions/problem_117.py)
+
+---
