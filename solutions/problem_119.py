@@ -44,28 +44,23 @@ def get_smallest_stab_set_helper(remaining_intervals, used_points,
 
 def get_smallest_stab_set(interval_tuples):
     intervals = set()
-    smallest, largest = sys.maxsize, -sys.maxsize
     num_to_intervals = dict()
 
-    endpoints = list()
+    endpoints = set()
     for (start, end) in interval_tuples:
-        interval = Interval(start, end)
+        endpoints.add(end)
 
-        if start < smallest:
-            smallest = start
-        if end > largest:
-            largest = end
-        endpoints.append(end)
+        interval = Interval(start, end)
+        intervals.add(interval)
 
         for num in range(start, end + 1):
             if num not in num_to_intervals:
                 num_to_intervals[num] = set()
             num_to_intervals[num].add(interval)
 
-        intervals.add(interval)
-
     smallest_stab_set = get_smallest_stab_set_helper(
         intervals, set(), endpoints, num_to_intervals)
+
     return smallest_stab_set
 
 
@@ -73,4 +68,5 @@ assert get_smallest_stab_set([[0, 3]]) == {3}
 assert get_smallest_stab_set([[0, 3], [2, 6]]) == {3}
 assert get_smallest_stab_set([[0, 3], [2, 6], [3, 4]]) == {3}
 assert get_smallest_stab_set([[0, 3], [2, 6], [3, 4], [6, 7]]) == {3, 6}
-assert get_smallest_stab_set([[0, 3], [2, 6], [3, 4], [6, 9]]) == {3, 6}
+assert get_smallest_stab_set([[0, 3], [2, 6], [3, 4], [6, 9]]) == {3, 9}
+assert get_smallest_stab_set([[0, 3], [2, 6], [3, 4], [6, 100]]) == {3, 100}
