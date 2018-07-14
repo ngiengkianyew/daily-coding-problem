@@ -1868,3 +1868,15 @@ For example, given `[-9, -2, 0, 2, 3]`, return `[0, 4, 4, 9, 81]`.
 [Solution](solutions/problem_118.py)
 
 ---
+
+#### Problem 119
+
+This problem was asked by Google.
+
+Given a set of closed intervals, find the smallest set of numbers that covers all the intervals. If there are multiple smallest sets, return any of them.
+
+For example, given the intervals `[0, 3], [2, 6], [3, 4], [6, 9]`, one set of numbers that covers all these intervals is `{3, 6}`.
+
+[Solution](solutions/problem_119.py)
+
+---
