@@ -1880,3 +1880,13 @@ For example, given the intervals `[0, 3], [2, 6], [3, 4], [6, 9]`, one set of nu
 [Solution](solutions/problem_119.py)
 
 ---
+
+#### Problem 120
+
+This problem was asked by Microsoft.
+
+Implement the singleton pattern with a twist. First, instead of storing one instance, store two instances. And in every even call of getInstance(), return the first instance and in every odd call of getInstance(), return the second instance.
+
+[Solution](solutions/problem_120.py)
+
+---
