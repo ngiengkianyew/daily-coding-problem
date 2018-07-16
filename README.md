@@ -1890,3 +1890,15 @@ Implement the singleton pattern with a twist. First, instead of storing one inst
 [Solution](solutions/problem_120.py)
 
 ---
+
+#### Problem 121
+
+This problem was asked by Google.
+
+Given a string which we can delete at most k, return whether you can make a palindrome.
+
+For example, given 'waterrfetawx' and a k of 2, you could delete f and x to get 'waterretaw'.
+
+[Solution](solutions/problem_121.py)
+
+---
