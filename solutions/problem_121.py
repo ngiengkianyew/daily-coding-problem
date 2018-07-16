@@ -3,10 +3,10 @@ def is_palindrome(string):
 
 
 def make_palindrome(string, num_delete):
-    if not num_delete:
-        return is_palindrome(string)
     if is_palindrome(string):
         return True
+    if not num_delete:
+        return False
 
     for i, _ in enumerate(string):
         new_string = string[:i] + string[i+1:]
