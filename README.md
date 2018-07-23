@@ -11,7 +11,7 @@ For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
 
 Bonus: Can you do this in one pass?
 
-[Solution](solutions/problem_01.py)
+[Solution](solutions/problem_001.py)
 
 ---
 
@@ -25,7 +25,7 @@ For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120
 
 Follow-up: what if you can't use division?
 
-[Solution](solutions/problem_02.py)
+[Solution](solutions/problem_002.py)
 
 ---
 
@@ -35,7 +35,7 @@ This problem was asked by Google.
 
 Given the root to a binary tree, implement serialize(root), which serializes the tree into a string, and deserialize(s), which deserializes the string back into the tree.
 
-[Solution](solutions/problem_03.py)
+[Solution](solutions/problem_003.py)
 
 ---
 
@@ -49,7 +49,7 @@ For example, the input [3, 4, -1, 1] should give 2. The input [1, 2, 0] should g
 
 You can modify the input array in-place.
 
-[Solution](solutions/problem_04.py)
+[Solution](solutions/problem_004.py)
 
 ---
 
@@ -66,7 +66,7 @@ def cons(a, b):
 ```
 Implement car and cdr.
 
-[Solution](solutions/problem_05.py)
+[Solution](solutions/problem_005.py)
 
 ---
 
@@ -78,7 +78,7 @@ An XOR linked list is a more memory efficient doubly linked list. Instead of eac
 
 If using a language that has no pointers (such as Python), you can assume you have access to get_pointer and dereference_pointer functions that converts between nodes and memory addresses.
 
-[Solution](solutions/problem_06.py)
+[Solution](solutions/problem_006.py)
 
 ---
 
@@ -92,7 +92,7 @@ For example, the message '111' would give 3, since it could be decoded as 'aaa',
 
 You can assume that the messages are decodable. For example, '001' is not allowed.
 
-[Solution](solutions/problem_07.py)
+[Solution](solutions/problem_007.py)
 
 ---
 
@@ -116,7 +116,7 @@ For example, the following tree has 5 unival subtrees:
  1   1
 ```
 
-[Solution](solutions/problem_08.py)
+[Solution](solutions/problem_008.py)
 
 ---
 
@@ -128,7 +128,7 @@ Given a list of integers, write a function that returns the largest sum of non-a
 
 For example, [2, 4, 6, 8] should return 12, since we pick 4 and 8. [5, 1, 1, 5] should return 10, since we pick 5 and 5.
 
-[Solution](solutions/problem_09.py)
+[Solution](solutions/problem_009.py)
 
 ---
 
@@ -138,7 +138,7 @@ This problem was asked by Apple.
 
 Implement a job scheduler which takes in a function f and an integer n, and calls f after n milliseconds.
 
-[Solution](solutions/problem_10.py)
+[Solution](solutions/problem_010.py)
 
 ---
 
@@ -152,7 +152,7 @@ For example, given the query string de and the set of strings [dog, deer, deal],
 
 Hint: Try preprocessing the dictionary into a more efficient data structure to speed up queries.
 
-[Solution](solutions/problem_11.py)
+[Solution](solutions/problem_011.py)
 
 ---
 
@@ -174,7 +174,7 @@ For example, if N is 4, then there are 5 unique ways:
 
 What if, instead of being able to climb 1 or 2 steps at a time, you could climb any number from a set of positive integers X? For example, if X = {1, 3, 5}, you could climb 1, 3, or 5 steps at a time.
 
-[Solution](solutions/problem_12.py)
+[Solution](solutions/problem_012.py)
 
 ---
 
@@ -186,7 +186,7 @@ Given an integer k and a string s, find the length of the longest substring that
 
 For example, given s = "abcba" and k = 2, the longest substring with k distinct characters is "bcb".
 
-[Solution](solutions/problem_13.py)
+[Solution](solutions/problem_013.py)
 
 ---
 
@@ -198,7 +198,7 @@ The area of a circle is defined as r^2. Estimate \pi to 3 decimal places using a
 
 Hint: The basic equation of a circle is x^2 + y^2 = r^2.
 
-[Solution](solutions/problem_14.py)
+[Solution](solutions/problem_014.py)
 
 ---
 
@@ -208,7 +208,7 @@ This problem was asked by Facebook.
 
 Given a stream of elements too large to store in memory, pick a random element from the stream with uniform probability.
 
-[Solution](solutions/problem_15.py)
+[Solution](solutions/problem_015.py)
 
 ---
 
@@ -222,7 +222,7 @@ record(order_id): adds the order_id to the log
 get_last(i): gets the ith last element from the log. i is guaranteed to be smaller than or equal to N.
 You should be as efficient with time and space as possible.
 
-[Solution](solutions/problem_16.py)
+[Solution](solutions/problem_016.py)
 
 ---
 
@@ -261,7 +261,7 @@ We are interested in finding the longest (number of characters) absolute path to
 
 Given a string representing the file system in the above format, return the length of the longest absolute path to a file in the abstracted file system. If there is no file in the system, return 0.
 
-[Solution](solutions/problem_17.py)
+[Solution](solutions/problem_017.py)
 
 ---
 
@@ -282,7 +282,7 @@ For example, given array = [10, 5, 2, 7, 8, 7] and k = 3, we should get: [10, 7,
 
 Do this in O(n) time and O(k) space. You can modify the input array in-place and you do not need to store the results. You can simply print them out as you compute them.
 
-[Solution](solutions/problem_18.py)
+[Solution](solutions/problem_018.py)
 
 ---
 
@@ -294,7 +294,7 @@ A builder is looking to build a row of N houses that can be of K different color
 
 Given an N by K matrix where the nth row and kth column represents the cost to build the nth house with kth color, return the minimum cost which achieves this goal.
 
-[Solution](solutions/problem_19.py)
+[Solution](solutions/problem_019.py)
 
 ---
 
@@ -310,7 +310,7 @@ In this example, assume nodes with the same value are the exact same node object
 
 Do this in O(M + N) time (where M and N are the lengths of the lists) and constant space.
 
-[Solution](solutions/problem_20.py)
+[Solution](solutions/problem_020.py)
 
 ---
 
@@ -322,7 +322,7 @@ Given an array of time intervals (start, end) for classroom lectures (possibly o
 
 For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
 
-[Solution](solutions/problem_21.py)
+[Solution](solutions/problem_021.py)
 
 ---
 
@@ -336,7 +336,7 @@ For example, given the set of words 'quick', 'brown', 'the', 'fox', and the stri
 
 Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and the string "bedbathandbeyond", return either ['bed', 'bath', 'and', 'beyond] or ['bedbath', 'and', 'beyond'].
 
-[Solution](solutions/problem_22.py)
+[Solution](solutions/problem_022.py)
 
 ---
 
@@ -359,7 +359,7 @@ For example, given the following board:
 
 and start = (3, 0) (bottom left) and end = (0, 0) (top left), the minimum number of steps required to reach the end is 7, since we would need to go through (1, 2) because there is a wall everywhere else on the second row.
 
-[Solution](solutions/problem_23.py)
+[Solution](solutions/problem_023.py)
 
 ---
 
@@ -376,7 +376,7 @@ lock, which attempts to lock the node. If it cannot be locked, then it should re
 unlock, which unlocks the node. If it cannot be unlocked, then it should return false. Otherwise, it should unlock it and return true.
 You may augment the node to add parent pointers or any other property you would like. You may assume the class is used in a single-threaded program, so there is no need for actual locks or mutexes. Each method should run in O(h), where h is the height of the tree.
 
-[Solution](solutions/problem_24.py)
+[Solution](solutions/problem_024.py)
 
 ---
 
@@ -392,9 +392,9 @@ That is, implement a function that takes in a string and a valid regular express
 
 For example, given the regular expression "ra." and the string "ray", your function should return true. The same regular expression on the string "raymond" should return false.
 
-Given the regular expression ".*at" and the string "chat", your function should return true. The same regular expression on the string "chats" should return false.
+Given the regular expression `".*at"` and the string "chat", your function should return true. The same regular expression on the string "chats" should return false.
 
-[Solution](solutions/problem_25.py)
+[Solution](solutions/problem_025.py)
 
 ---
 
@@ -408,7 +408,7 @@ The list is very long, so making more than one pass is prohibitively expensive.
 
 Do this in constant space and in one pass.
 
-[Solution](solutions/problem_26.py)
+[Solution](solutions/problem_026.py)
 
 ---
 
@@ -422,7 +422,7 @@ For example, given the string "([])[]({})", you should return true.
 
 Given the string "([)]" or "((()", you should return false.
 
-[Solution](solutions/problem_27.py)
+[Solution](solutions/problem_027.py)
 
 ---
 
@@ -444,7 +444,7 @@ For example, given the list of words ["the", "quick", "brown", "fox", "jumps", "
 "fox  jumps  over", # 2 extra spaces distributed evenly
 "the   lazy   dog"] # 4 extra spaces distributed evenly
 
-[Solution](solutions/problem_28.py)
+[Solution](solutions/problem_028.py)
 
 ---
 
@@ -457,7 +457,7 @@ Run-length encoding is a fast and simple method of encoding strings. The basic i
 
 Implement run-length encoding and decoding. You can assume the string to be encoded have no digits and consists solely of alphabetic characters. You can assume the string to be decoded is valid.
 
-[Solution](solutions/problem_29.py)
+[Solution](solutions/problem_029.py)
 
 ---
 
@@ -471,7 +471,7 @@ For example, given the input [2, 1, 2], we can hold 1 unit of water in the middl
 
 Given the input [3, 0, 1, 3, 0, 5], we can hold 3 units in the first index, 2 in the second, and 3 in the fourth index (we cannot hold 5 since it would run off to the left), so we can trap 8 units of water.
 
-[Solution](solutions/problem_30.py)
+[Solution](solutions/problem_030.py)
 
 ---
 
@@ -483,7 +483,7 @@ The edit distance between two strings refers to the minimum number of character 
 
 Given two strings, compute the edit distance between them.
 
-[Solution](solutions/problem_31.py)
+[Solution](solutions/problem_031.py)
 
 ---
 
@@ -495,7 +495,7 @@ Suppose you are given a table of currency exchange rates, represented as a 2D ar
 
 There are no transaction costs and you can trade fractional quantities.
 
-[Solution](solutions/problem_32.py)
+[Solution](solutions/problem_032.py)
 
 ---
 
@@ -519,7 +519,7 @@ For example, given the sequence [2, 1, 5, 7, 2, 0, 5], your algorithm should pri
 2
 ```
 
-[Solution](solutions/problem_33.py)
+[Solution](solutions/problem_033.py)
 
 ---
 
@@ -533,7 +533,7 @@ For example, given the string "race", you should return "ecarace", since we can 
 
 As another example, given the string "google", you should return "elgoogle".
 
-[Solution](solutions/problem_34.py)
+[Solution](solutions/problem_034.py)
 
 ---
 
@@ -547,7 +547,7 @@ Do this in linear time and in-place.
 
 For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should become ['R', 'R', 'R', 'G', 'G', 'B', 'B'].
 
-[Solution](solutions/problem_35.py)
+[Solution](solutions/problem_035.py)
 
 ---
 
@@ -557,7 +557,7 @@ This problem was asked by Dropbox.
 
 Given the root to a binary search tree, find the second largest node in the tree.
 
-[Solution](solutions/problem_36.py)
+[Solution](solutions/problem_036.py)
 
 ---
 
@@ -571,7 +571,7 @@ For example, given the set {1, 2, 3}, it should return {{}, {1}, {2}, {3}, {1, 2
 
 You may also use a list or array to represent a set.
 
-[Solution](solutions/problem_37.py)
+[Solution](solutions/problem_037.py)
 
 ---
 
@@ -581,7 +581,7 @@ This problem was asked by Microsoft.
 
 You have an N by N board. Write a function that, given N, returns the number of possible arrangements of the board where N queens can be placed on the board without threatening each other, i.e. no two queens share the same row, column, or diagonal.
 
-[Solution](solutions/problem_38.py)
+[Solution](solutions/problem_038.py)
 
 ---
 
@@ -599,9 +599,9 @@ A cell neighbours another cell if it is horizontally, vertically, or diagonally 
 
 Implement Conway's Game of Life. It should be able to be initialized with a starting list of live cell coordinates and the number of steps it should run for. Once initialized, it should print out the board state at each step. Since it's an infinite board, print out only the relevant coordinates, i.e. from the top-leftmost live cell to bottom-rightmost live cell.
 
-You can represent a live cell with an asterisk (*) and a dead cell with a dot (.).
+You can represent a live cell with an asterisk `*` and a dead cell with a dot `.`.
 
-[Solution](solutions/problem_39.py)
+[Solution](solutions/problem_039.py)
 
 ---
 
@@ -615,7 +615,7 @@ For example, given `[6, 1, 3, 3, 3, 6, 6]`, return `1`. Given `[13, 19, 13, 13]`
 
 Do this in $O(N)$ time and $O(1)$ space.
 
-[Solution](solutions/problem_40.py)
+[Solution](solutions/problem_040.py)
 
 ---
 
@@ -631,7 +631,7 @@ Given the list of flights [('SFO', 'COM'), ('COM', 'YYZ')] and starting airport 
 
 Given the list of flights [('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')] and starting airport 'A', you should return the list ['A', 'B', 'C', 'A', 'C'] even though ['A', 'C', 'A', 'B', 'C'] is also a valid itinerary. However, the first one is lexicographically smaller.
 
-[Solution](solutions/problem_41.py)
+[Solution](solutions/problem_041.py)
 
 ---
 
@@ -645,7 +645,7 @@ Integers can appear more than once in the list. You may assume all numbers in th
 
 For example, given `S = [12, 1, 61, 5, 9, 2]` and `k = 24`, return [12, 9, 2, 1] since it sums up to 24.
 
-[Solution](solutions/problem_42.py)
+[Solution](solutions/problem_042.py)
 
 ---
 
@@ -661,7 +661,7 @@ Implement a stack that has the following methods:
 
 Each method should run in constant time.
 
-[Solution](solutions/problem_43.py)
+[Solution](solutions/problem_043.py)
 
 ---
 
@@ -677,7 +677,7 @@ You may assume each element in the array is distinct.
 
 For example, a sorted list has zero inversions. The array [2, 4, 1, 3, 5] has three inversions: (2, 1), (4, 1), and (4, 3). The array [5, 4, 3, 2, 1] has ten inversions: every distinct pair forms an inversion.
 
-[Solution](solutions/problem_44.py)
+[Solution](solutions/problem_044.py)
 
 ---
 
@@ -687,7 +687,7 @@ This problem was asked by Two Sigma.
 
 Using a function rand5() that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function rand7() that returns an integer from 1 to 7 (inclusive).
 
-[Solution](solutions/problem_45.py)
+[Solution](solutions/problem_045.py)
 
 ---
 
@@ -699,7 +699,7 @@ Given a string, find the longest palindromic contiguous substring. If there are 
 
 For example, the longest palindromic substring of "aabcdcb" is "bcdcb". The longest palindromic substring of "bananas" is "anana".
 
-[Solution](solutions/problem_46.py)
+[Solution](solutions/problem_046.py)
 
 ---
 
@@ -711,7 +711,7 @@ Given a array of numbers representing the stock prices of a company in chronolog
 
 For example, given [9, 11, 8, 5, 7, 10], you should return 5, since you could buy the stock at 5 dollars and sell it at 10 dollars.
 
-[Solution](solutions/problem_47.py)
+[Solution](solutions/problem_047.py)
 
 ---
 
@@ -743,7 +743,7 @@ You should return the following tree:
 d  e f  g
 ```
 
-[Solution](solutions/problem_48.py)
+[Solution](solutions/problem_048.py)
 
 ---
 
@@ -759,7 +759,7 @@ Given the array [-5, -1, -8, -9], the maximum sum would be 0, since we would not
 
 Do this in O(N) time.
 
-[Solution](solutions/problem_49.py)
+[Solution](solutions/problem_049.py)
 
 ---
 
@@ -783,7 +783,7 @@ For example, given the following tree:
 
 You should return 45, as it is (3 + 2) * (4 + 5).
 
-[Solution](solutions/problem_50.py)
+[Solution](solutions/problem_050.py)
 
 ---
 
@@ -797,7 +797,7 @@ It should run in O(N) time.
 
 Hint: Make sure each one of the 52! permutations of the deck is equally likely.
 
-[Solution](solutions/problem_51.py)
+[Solution](solutions/problem_051.py)
 
 ---
 
@@ -811,7 +811,7 @@ set(key, value): sets key to value. If there are already n items in the cache an
 get(key): gets the value at key. If no such key exists, return null.
 Each operation should run in O(1) time.
 
-[Solution](solutions/problem_52.py)
+[Solution](solutions/problem_052.py)
 
 ---
 
@@ -821,7 +821,7 @@ This problem was asked by Apple.
 
 Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, first-out) data structure with the following methods: enqueue, which inserts an element into the queue, and dequeue, which removes it.
 
-[Solution](solutions/problem_53.py)
+[Solution](solutions/problem_053.py)
 
 ---
 
@@ -833,7 +833,7 @@ Sudoku is a puzzle where you're given a partially-filled 9 by 9 grid with digits
 
 Implement an efficient sudoku solver.
 
-[Solution](solutions/problem_54.py)
+[Solution](solutions/problem_054.py)
 
 ---
 
@@ -848,7 +848,7 @@ Implement a URL shortener with the following methods:
 
 Hint: What if we enter the same URL twice?
 
-[Solution](solutions/problem_55.py)
+[Solution](solutions/problem_055.py)
 
 ---
 
@@ -858,7 +858,7 @@ This problem was asked by Google.
 
 Given an undirected graph represented as an adjacency matrix and an integer k, write a function to determine whether each vertex in the graph can be colored such that no two adjacent vertices share the same color using at most k colors.
 
-[Solution](solutions/problem_56.py)
+[Solution](solutions/problem_056.py)
 
 ---
 
@@ -872,7 +872,7 @@ You can assume that there are no spaces at the ends of the string and that there
 
 For example, given the string "the quick brown fox jumps over the lazy dog" and k = 10, you should return: ["the quick", "brown fox", "jumps over", "the lazy", "dog"]. No string in the list has a length of more than 10.
 
-[Solution](solutions/problem_57.py)
+[Solution](solutions/problem_057.py)
 
 ---
 
@@ -888,7 +888,7 @@ For example, given the array [13, 18, 25, 2, 8, 10] and the element 8, return 4 
 
 You can assume all the integers in the array are unique.
 
-[Solution](solutions/problem_58.py)
+[Solution](solutions/problem_058.py)
 
 ---
 
@@ -898,7 +898,7 @@ This problem was asked by Google.
 
 Implement a file syncing algorithm for two computers over a low-bandwidth network. What if we know the files in the two computers are mostly the same?
 
-[Solution](solutions/problem_59.py)
+[Solution](solutions/problem_059.py)
 
 ---
 
@@ -912,7 +912,7 @@ For example, given the multiset {15, 5, 20, 10, 35, 15, 10}, it would return tru
 
 Given the multiset {15, 5, 20, 10, 35}, it would return false, since we can't split it up into two subsets that add up to the same sum.
 
-[Solution](solutions/problem_60.py)
+[Solution](solutions/problem_060.py)
 
 ---
 
@@ -926,7 +926,7 @@ Do this faster than the naive method of repeated multiplication.
 
 For example, pow(2, 10) should return 1024.
 
-[Solution](solutions/problem_61.py)
+[Solution](solutions/problem_061.py)
 
 ---
 
@@ -942,7 +942,7 @@ For example, given a 2 by 2 matrix, you should return 2, since there are two way
 
 Given a 5 by 5 matrix, there are 70 ways to get to the bottom-right.
 
-[Solution](solutions/problem_62.py)
+[Solution](solutions/problem_062.py)
 
 ---
 
@@ -963,7 +963,7 @@ For example, given the following matrix:
 
 and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row.
 
-[Solution](solutions/problem_63.py)
+[Solution](solutions/problem_063.py)
 
 ---
 
@@ -975,7 +975,7 @@ A knight's tour is a sequence of moves by a knight on a chessboard such that all
 
 Given N, write a function to return the number of knight's tours on an N by N chessboard.
 
-[Solution](solutions/problem_64.py)
+[Solution](solutions/problem_064.py)
 
 ---
 
@@ -999,7 +999,7 @@ You should print out the following:
 1, 2, 3, 4, 5, 10, 15, 20, 19, 18, 17, 16, 11, 6, 7, 8, 9, 14, 13, 12
 ```
 
-[Solution](solutions/problem_65.py)
+[Solution](solutions/problem_065.py)
 
 ---
 
@@ -1011,7 +1011,7 @@ Assume you have access to a function toss_biased() which returns 0 or 1 with a p
 
 Write a function to simulate an unbiased coin toss.
 
-[Solution](solutions/problem_66.py)
+[Solution](solutions/problem_066.py)
 
 ---
 
@@ -1026,7 +1026,7 @@ Implement an LFU (Least Frequently Used) cache. It should be able to be initiali
 
 Each operation should run in O(1) time.
 
-[Solution](solutions/problem_67.py)
+[Solution](solutions/problem_067.py)
 
 ---
 
@@ -1058,7 +1058,7 @@ The board would look like this:
 
 You should return 2, since bishops 1 and 3 attack each other, as well as bishops 3 and 4.
 
-[Solution](solutions/problem_68.py)
+[Solution](solutions/problem_068.py)
 
 ---
 
@@ -1072,7 +1072,7 @@ For example, if the list is [-10, -10, 5, 2], we should return 500, since that's
 
 You can assume the list has at least three integers.
 
-[Solution](solutions/problem_69.py)
+[Solution](solutions/problem_069.py)
 
 ---
 
@@ -1084,7 +1084,7 @@ Given a positive integer n, return the n-th perfect number.
 
 For example, given 1, you should return 19. Given 2, you should return 28.
 
-[Solution](solutions/problem_70.py)
+[Solution](solutions/problem_070.py)
 
 ---
 
@@ -1096,7 +1096,7 @@ Using a function rand7() that returns an integer from 1 to 7 (inclusive) with un
 
 (repeated question - Problem 45)
 
-[Solution](solutions/problem_71.py)
+[Solution](solutions/problem_071.py)
 
 ---
 
@@ -1130,7 +1130,7 @@ A
 
 Should return null, since we have an infinite loop.
 
-[Solution](solutions/problem_72.py)
+[Solution](solutions/problem_072.py)
 
 ---
 
@@ -1140,7 +1140,7 @@ This problem was asked by Google.
 
 Given the head of a singly linked list, reverse it in-place.
 
-[Solution](solutions/problem_73.py)
+[Solution](solutions/problem_073.py)
 
 ---
 
@@ -1165,7 +1165,7 @@ For example, given N = 6 and X = 12, you should return 4, since the multiplicati
 
 And there are 4 12's in the table.
 
-[Solution](solutions/problem_74.py)
+[Solution](solutions/problem_074.py)
 
 ---
 
@@ -1177,7 +1177,7 @@ Given an array of numbers, find the length of the longest increasing subsequence
 
 For example, given the array `[0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15]`, the longest increasing subsequence has length 6: it is `0, 2, 6, 9, 11, 15`.
 
-[Solution](solutions/problem_75.py)
+[Solution](solutions/problem_075.py)
 
 ---
 
@@ -1223,7 +1223,7 @@ tsr
 
 Your function should return 3, since we would need to remove all the columns to order it.
 
-[Solution](solutions/problem_76.py)
+[Solution](solutions/problem_076.py)
 
 ---
 
@@ -1237,7 +1237,7 @@ The input list is not necessarily ordered in any way.
 
 For example, given `[(1, 3), (5, 8), (4, 10), (20, 25)]`, you should return `[(1, 3), (4, 10), (20, 25)]`.
 
-[Solution](solutions/problem_77.py)
+[Solution](solutions/problem_077.py)
 
 ---
 
@@ -1247,7 +1247,7 @@ This problem was asked recently by Google.
 
 Given k sorted singly linked lists, write a function to merge all the lists into one sorted singly linked list.
 
-[Solution](solutions/problem_78.py)
+[Solution](solutions/problem_078.py)
 
 ---
 
@@ -1261,7 +1261,7 @@ For example, given the array `[10, 5, 7]`, you should return true, since we can 
 
 Given the array `[10, 5, 1]`, you should return false, since we can't modify any one element to get a non-decreasing array.
 
-[Solution](solutions/problem_79.py)
+[Solution](solutions/problem_079.py)
 
 ---
 
@@ -1279,7 +1279,7 @@ Given the root of a binary tree, return a deepest node. For example, in the foll
 d
 ```
 
-[Solution](solutions/problem_80.py)
+[Solution](solutions/problem_080.py)
 
 ---
 
@@ -1291,7 +1291,7 @@ Given a mapping of digits to letters (as in a phone number), and a digit string,
 
 For example if `{'2': ['a', 'b', 'c'], '3': ['d', 'e', 'f'], }` then `"23"` should return `['ad', 'ae', 'af', 'bd', 'be', 'bf', 'cd', 'ce', 'cf']`.
 
-[Solution](solutions/problem_81.py)
+[Solution](solutions/problem_081.py)
 
 ---
 
@@ -1303,7 +1303,7 @@ Using a read7() method that returns 7 characters from a file, implement readN(n)
 
 For example, given a file with the content “Hello world”, three read7() returns “Hello w”, “orld” and then “”.
 
-[Solution](solutions/problem_82.py)
+[Solution](solutions/problem_082.py)
 
 ---
 
@@ -1331,7 +1331,7 @@ should become:
   f e  d
 ```
 
-[Solution](solutions/problem_83.py)
+[Solution](solutions/problem_083.py)
 
 ---
 
@@ -1352,7 +1352,7 @@ For example, this matrix has 4 islands.
 1 1 0 0 1
 ```
 
-[Solution](solutions/problem_84.py)
+[Solution](solutions/problem_084.py)
 
 ---
 
@@ -1362,7 +1362,7 @@ This problem was asked by Facebook.
 
 Given three 32-bit integers x, y, and b, return x if b is 1 and y if b is 0, using only mathematical or bit operations. You can assume b can only be 1 or 0.
 
-[Solution](solutions/problem_85.py)
+[Solution](solutions/problem_085.py)
 
 ---
 
@@ -1374,7 +1374,7 @@ Given a string of parentheses, write a function to compute the minimum number of
 
 For example, given the string "()())()", you should return 1. Given the string ")(", you should return 2, since we must remove all of them.
 
-[Solution](solutions/problem_86.py)
+[Solution](solutions/problem_086.py)
 
 ---
 
@@ -1407,7 +1407,7 @@ A N B
 
 is considered valid.
 
-[Solution](solutions/problem_87.py)
+[Solution](solutions/problem_087.py)
 
 ---
 
@@ -1417,7 +1417,7 @@ This question was asked by ContextLogic.
 
 Implement division of two positive integers without using the division, multiplication, or modulus operators. Return the quotient as an integer, ignoring the remainder.
 
-[Solution](solutions/problem_88.py)
+[Solution](solutions/problem_088.py)
 
 ---
 
@@ -1429,7 +1429,7 @@ Determine whether a tree is a valid binary search tree.
 
 A binary search tree is a tree with two children, left and right, and satisfies the constraint that the key in the left child must be less than or equal to the root and the key in the right child must be greater than or equal to the root.
 
-[Solution](solutions/problem_89.py)
+[Solution](solutions/problem_089.py)
 
 ---
 
@@ -1439,7 +1439,7 @@ This question was asked by Google.
 
 Given an integer n and a list of integers l, write a function that randomly generates a number from 0 to n-1 that isn't in l (uniform).
 
-[Solution](solutions/problem_90.py)
+[Solution](solutions/problem_090.py)
 
 ---
 
@@ -1458,7 +1458,7 @@ for f in functions:
     print(f())
 ```
 
-[Solution](solutions/problem_91.py)
+[Solution](solutions/problem_091.py)
 
 ---
 
@@ -1472,7 +1472,7 @@ Return null if there is no such ordering.
 
 For example, given `{'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC100': []}`, should return `['CSC100', 'CSC200', 'CSCS300']`.
 
-[Solution](solutions/problem_92.py)
+[Solution](solutions/problem_092.py)
 
 ---
 
@@ -1484,7 +1484,7 @@ Given a tree, find the largest tree/subtree that is a BST.
 
 Given a tree, return the size of the largest tree/subtree that is a BST.
 
-[Solution](solutions/problem_93.py)
+[Solution](solutions/problem_093.py)
 
 ---
 
@@ -1494,7 +1494,7 @@ This problem was asked by Google.
 
 Given a binary tree of integers, find the maximum path sum between two nodes. The path must go through at least one node, and does not need to go through the root.
 
-[Solution](solutions/problem_94.py)
+[Solution](solutions/problem_094.py)
 
 ---
 
@@ -1508,7 +1508,7 @@ For example, the list `[1,2,3]` should return `[1,3,2]`. The list `[1,3,2]` shou
 
 Can you perform the operation without allocating extra memory (disregarding the input memory)?
 
-[Solution](solutions/problem_95.py)
+[Solution](solutions/problem_095.py)
 
 ---
 
@@ -1520,7 +1520,7 @@ Given a number in the form of a list of digits, return all possible permutations
 
 For example, given `[1,2,3]`, return `[[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]`.
 
-[Solution](solutions/problem_96.py)
+[Solution](solutions/problem_096.py)
 
 ---
 
@@ -1555,7 +1555,7 @@ d.set(1, 2, 0) # set key 1 to value 2 at time 0
 d.get(1, 0) # get key 1 at time 0 should be 2
 ```
 
-[Solution](solutions/problem_97.py)
+[Solution](solutions/problem_097.py)
 
 ---
 
@@ -1577,7 +1577,7 @@ For example, given the following board:
 ```
 `exists(board, "ABCCED")` returns true, `exists(board, "SEE")` returns true, `exists(board, "ABCB")` returns false.
 
-[Solution](solutions/problem_98.py)
+[Solution](solutions/problem_098.py)
 
 ---
 
@@ -1591,7 +1591,7 @@ For example, given [100, 4, 200, 1, 3, 2], the longest consecutive element seque
 
 Your algorithm should run in O(n) complexity.
 
-[Solution](solutions/problem_99.py)
+[Solution](solutions/problem_099.py)
 
 ---
 
