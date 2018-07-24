@@ -2038,3 +2038,11 @@ For example, with n = 3, we can do this in 7 moves:
 [Solution](solutions/problem_128.py)
 
 ---
+
+#### Problem 129
+
+Given a real number n, find the square root of n. For example, given n = 9, return 3.
+
+[Solution](solutions/problem_129.py)
+
+---
