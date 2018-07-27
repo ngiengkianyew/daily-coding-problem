@@ -53,6 +53,7 @@ class RequestQuery:
         num_req = 0
         num_req += len(start_file.request_timestamps[start_file_pos:])
         num_req += len(end_file.request_timestamps[:end_file_pos])
+        num_req += (end_file_index - start_file_index) * REQUESTS_PER_FILE
 
         return num_req
 
