@@ -479,7 +479,7 @@ Given the input [3, 0, 1, 3, 0, 5], we can hold 3 units in the first index, 2 in
 
 This problem was asked by Google.
 
-The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other. For example, the edit distance between “kitten” and “sitting” is three: substitute the “k” for “s”, substitute the “e” for “i”, and append a “g”.
+The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other. For example, the edit distance between "kitten" and "sitting" is three: substitute the "k" for "s", substitute the "e" for "i", and append a "g".
 
 Given two strings, compute the edit distance between them.
 
@@ -1301,7 +1301,7 @@ This problem was asked Microsoft.
 
 Using a read7() method that returns 7 characters from a file, implement readN(n) which reads n characters.
 
-For example, given a file with the content “Hello world”, three read7() returns “Hello w”, “orld” and then “”.
+For example, given a file with the content "Hello world", three read7() returns "Hello w", "orld" and then "".
 
 [Solution](solutions/problem_082.py)
 
@@ -2081,5 +2081,27 @@ Design and implement a HitCounter class that keeps track of requests (or hits). 
 Follow-up: What if our system has limited memory?
 
 [Solution](solutions/problem_132.py)
+
+---
+
+#### Problem 133
+
+This problem was asked by Amazon.
+
+Given a node in a binary tree, return the next bigger element, also known as the inorder successor.
+(NOTE: I'm assuming this is a binary search tree, because otherwise, the problem makes no sense at all)
+
+For example, the inorder successor of 22 is 30.
+
+```
+   10
+  /  \
+ 5    30
+     /  \
+   22    35
+```
+You can assume each node has a parent pointer.
+
+[Solution](solutions/problem_133.py)
 
 ---
