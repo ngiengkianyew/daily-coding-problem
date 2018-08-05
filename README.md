@@ -2233,3 +2233,25 @@ Follow-up: Can you do this in linear time and constant space?
 [Solution](solutions/problem_140.py)
 
 ---
+
+#### Problem 141
+
+This problem was asked by Microsoft.
+
+Implement 3 stacks using a single list:
+
+```
+class Stack:
+    def __init__(self):
+        self.list = []
+
+    def pop(self, stack_number):
+        pass
+
+    def push(self, item, stack_number):
+        pass
+```
+
+[Solution](solutions/problem_141.py)
+
+---
