@@ -2300,3 +2300,15 @@ Follow-up: If you can preprocess the array, can you do this in constant time?
 [Solution](solutions/problem_144.py)
 
 ---
+
+#### Problem 145
+
+This problem was asked by Google.
+
+Given the head of a singly linked list, swap every two nodes and return its head.
+
+For example, given `1 -> 2 -> 3 -> 4`, return `2 -> 1 -> 4 -> 3`.
+
+[Solution](solutions/problem_145.py)
+
+---
