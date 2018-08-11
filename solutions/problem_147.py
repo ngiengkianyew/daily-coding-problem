@@ -1,6 +1,3 @@
-import sys
-
-
 def merge_sorted(arr_1, arr_2):
     merged_array = list()
     ind_1, ind_2 = 0, 0
