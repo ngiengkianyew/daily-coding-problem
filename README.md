@@ -2344,3 +2344,11 @@ We do not remove the tree at the root or its left child because it still has a 1
 [Solution](solutions/problem_146.py)
 
 ---
+
+#### Problem 147
+
+Given a list, sort it using this method: `reverse(lst, i, j)`, which sorts `lst` from `i` to `j`.
+
+[Solution](solutions/problem_147.py)
+
+---
