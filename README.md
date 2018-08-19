@@ -2456,3 +2456,15 @@ Recall that a heap has the following operations:
 [Solution](solutions/problem_154.py)
 
 ---
+
+#### Problem 155
+
+Given a list of elements, find the majority element, which appears more than half the times `(> floor(len(lst) / 2.0))`.
+
+You can assume that such an element exists.
+
+For example, given `[1, 2, 1, 1, 3, 4, 0]`, return `1`.
+
+[Solution](solutions/problem_155.py)
+
+---
