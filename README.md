@@ -2519,3 +2519,15 @@ The top left corner and bottom right corner will always be `0`.
 [Solution](solutions/problem_158.py)
 
 ---
+
+#### Problem 159
+
+This problem was asked by Google.
+
+Given a string, return the first recurring character in it, or `null` if there is no recurring chracter.
+
+For example, given the string `"acbbac"`, return `"b"`. Given the string `"abcdef"`, return `null`.
+
+[Solution](solutions/problem_159.py)
+
+---
