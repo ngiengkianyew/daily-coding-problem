@@ -2557,3 +2557,15 @@ The path does not have to pass through the root, and each node can have any amou
 [Solution](solutions/problem_160.py)
 
 ---
+
+#### Problem 161
+
+This problem was asked by Facebook.
+
+Given a 32-bit integer, return the number with its bits reversed.
+
+For example, given the binary number `1111 0000 1111 0000 1111 0000 1111 0000`, return `0000 1111 0000 1111 0000 1111 0000 1111`.
+
+[Solution](solutions/problem_161.py)
+
+---
