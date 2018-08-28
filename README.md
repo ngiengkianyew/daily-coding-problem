@@ -2607,3 +2607,13 @@ You can assume the given expression is always valid.
 [Solution](solutions/problem_163.py)
 
 ---
+
+#### Problem 164
+
+This problem was asked by Google.
+
+You are given an array of length n + 1 whose elements belong to the set `{1, 2, ..., n}`. By the pigeonhole principle, there must be a duplicate. Find it in linear time and space.
+
+[Solution](solutions/problem_164.py)
+
+---
