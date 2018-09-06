@@ -15,7 +15,6 @@ def flatten_helper(d, flat_d, path):
 def flatten(d):
     flat_d = dict()
     flatten_helper(d, flat_d, "")
-    print(flat_d)
     return flat_d
 
 
