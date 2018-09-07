@@ -2786,3 +2786,16 @@ You can assume keys do not contain dots in them, i.e. no clobbering will occur.
 [Solution](solutions/problem_173.py)
 
 ---
+
+#### Problem 174
+
+This problem was asked by Microsoft.
+
+Describe and give an example of each of the following types of polymorphism:
+* Ad-hoc polymorphism
+* Parametric polymorphism
+* Subtype polymorphism
+
+[Solution](solutions/problem_174.md)
+
+---
