@@ -3,7 +3,6 @@ def is_palindrome(string):
 
 
 def split_into_pals(string, curr="", prev_pals=[]):
-    # print("string: {}, curr: {}, prev_pals: {}".format(string, curr, prev_pals))
 
     if not string and not curr:
         return prev_pals
