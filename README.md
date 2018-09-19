@@ -2954,3 +2954,29 @@ For example, given the numbers `[42, 56, 14]`, return `14`.
 [Solution](solutions/problem_184.py)
 
 ---
+
+#### Problem 185
+
+This problem was asked by Google.
+
+Given two rectangles on a 2D graph, return the area of their intersection. If the rectangles don't intersect, return `0`.
+
+For example, given the following rectangles:
+```
+{
+    "top_left": (1, 4),
+    "dimensions": (3, 3) # width, height
+}
+```
+and
+```
+{
+    "top_left": (0, 5),
+    "dimensions" (4, 3) # width, height
+}
+```
+return `6`.
+
+[Solution](solutions/problem_185.py)
+
+---
