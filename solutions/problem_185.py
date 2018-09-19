@@ -8,7 +8,6 @@ class Point:
 
 
 class Rectangle:
-
     def __init__(self, json):
         self.tl = Point(json["top_left"][0], json["top_left"][1])
         width, height = json["dimensions"]
@@ -17,30 +16,31 @@ class Rectangle:
     def __repr__(self):
         return "(tl={},br={})".format((self.tl), (self.br))
 
+    def get_area(self):
+        return (self.br.x - self.tl.x) * (self.tl.y - self.br.y)
+
+    def envelopes(self, other):
+        return self.tl.x < other.tl.x and self.tl.y > other.tl.y and \
+            self.br.x > other.br.x and self.br.y < other.br.y
+
+    def is_disjoint_with(self, other):
+        return self.br.y > other.tl.y or other.br.y > self.tl.y or \
+            self.tl.x > other.br.x or other.tl.x > self.br.x
+
 
 def calculate_intersect_area(r1, r2):
-    if r1.tl.y > r2.tl.y:
-        y_inter_up = r2.tl.y
-        y_inter_lo = r1.br.y
+    if r1.envelopes(r2):
+        area = r2.get_area()
+    elif r2.envelopes(r1):
+        area = r1.get_area()
+    elif r1.is_disjoint_with(r2) or r2.is_disjoint_with(r1):
+        area = 0
     else:
-        y_inter_up = r1.tl.y
-        y_inter_lo = r2.br.y
-    print(y_inter_up, y_inter_lo)
-    height = max(0, y_inter_up - y_inter_lo)
-    print("height:", height)
-
-    if r1.tl.x < r2.tl.x:
-        x_inter_le = r2.tl.x
-        x_inter_ri = r1.br.x
-    else:
-        x_inter_le = r1.tl.x
-        x_inter_ri = r2.br.x
-    print(x_inter_le, x_inter_ri)
-    width = max(0, x_inter_ri - x_inter_le)
-    print("width:", width)
-
-    area = height * width
-    print(area)
+        heights = list(sorted([r1.tl.y, r1.br.y, r2.tl.y, r2.br.y]))[1:-1]
+        height = heights[1] - heights[0]
+        widths = list(sorted([r1.tl.x, r1.br.x, r2.tl.x, r2.br.x]))[1:-1]
+        width = widths[1] - widths[0]
+        area = height * width
 
     return area
 
@@ -57,3 +57,7 @@ assert calculate_intersect_area(r1, r2) == 0
 r1 = Rectangle({"top_left": (0, 5), "dimensions": (5, 5)})
 r2 = Rectangle({"top_left": (1, 4), "dimensions": (2, 2)})
 assert calculate_intersect_area(r1, r2) == 4
+
+r1 = Rectangle({"top_left": (0, 5), "dimensions": (5, 5)})
+r2 = Rectangle({"top_left": (4, 4), "dimensions": (3, 3)})
+assert calculate_intersect_area(r1, r2) == 3
