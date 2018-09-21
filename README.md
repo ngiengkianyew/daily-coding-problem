@@ -3020,3 +3020,31 @@ return `true` as the first and third rectangle overlap each other.
 [Solution](solutions/problem_187.py)
 
 ---
+
+#### Problem 188
+
+This problem was asked by Google.
+
+What will this code print out?
+
+```
+def make_functions():
+    flist = []
+
+    for i in [1, 2, 3]:
+        def print_i():
+            print(i)
+        flist.append(print_i)
+
+    return flist
+
+functions = make_functions()
+for f in functions:
+    f()
+```
+
+How can we make it print out what we apparently want?
+
+[Solution](solutions/problem_188.py)
+
+---
