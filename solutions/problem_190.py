@@ -1,15 +1,20 @@
-def get_max_subarray(arr):
-    csum = msum = 0
-    for num in arr:
-        csum = max(csum + num, num)
-        msum = max(csum, msum)
-
-    return msum
-
-
 def get_max_circ_sarray(arr):
     warr = arr * 2
-    return max(get_max_subarray(warr[i:i+len(arr)]) for i in range(len(arr)))
+
+    items = []
+    csum = msum = 0
+
+    for num in warr:
+        while len(items) >= len(arr) or (items and items[0] < 1):
+            csum -= items[0]
+            items = items[1:]
+
+        items.append(num)
+        csum += num
+
+        msum = max(msum, csum)
+
+    return msum
 
 
 # Tests
