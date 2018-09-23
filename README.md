@@ -3060,3 +3060,17 @@ For example, given the array `[5, 1, 3, 5, 2, 3, 4, 1]`, return `5` as the longe
 [Solution](solutions/problem_189.py)
 
 ---
+
+#### Problem 190
+
+This problem was asked by Facebook.
+
+Given a circular array, compute its maximum subarray sum in `O(n)` time.
+
+For example, given `[8, -1, 3, 4]`, return `15` as we choose the numbers `3`, `4`, and `8` where the `8` is obtained from wrapping around.
+
+Given `[-4, 5, 1, 0]`, return `6` as we choose the numbers `5` and `1`.
+
+[Solution](solutions/problem_190.py)
+
+---
