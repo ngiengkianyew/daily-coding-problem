@@ -3118,3 +3118,13 @@ For example, given `[1, 3, 2, 8, 4, 10]` and `fee = 2`, you should return `9`, s
 [Solution](solutions/problem_193.py)
 
 ---
+
+#### Problem 194
+
+This problem was asked by Facebook.
+
+Suppose you are given two lists of n points, one list `p1, p2, ..., pn` on the line `y = 0` and the other list `q1, q2, ..., qn` on the line `y = 1`. Imagine a set of `n` line segments connecting each point `pi` to `qi`. Write an algorithm to determine how many pairs of the line segments intersect.
+
+[Solution](solutions/problem_194.py)
+
+---
