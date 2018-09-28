@@ -3128,3 +3128,14 @@ Suppose you are given two lists of n points, one list `p1, p2, ..., pn` on the l
 [Solution](solutions/problem_194.py)
 
 ---
+
+#### Problem 195
+
+This problem was asked by Google.
+
+Let `M` be an `N` by `N` matrix in which every row and every column is sorted. No two elements of `M` are equal.
+
+Given `i1`, `j1`, `i2`, and `j2`, compute the number of elements of `M` smaller than `M[i1, j1]` and larger than `M[i2, j2]`.
+[Solution](solutions/problem_195.py)
+
+---
