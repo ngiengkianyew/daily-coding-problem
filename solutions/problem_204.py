@@ -4,26 +4,40 @@ class Node:
         self.right = None
 
 
-def count_nodes(root):
+def count_nodes(root, lspine=0, rspine=0):
     if not root:
         return 0
 
-    count = 1
-    count += count_nodes(root.left)
-    count += count_nodes(root.right)
+    if not lspine:
+        node = root
+        while node:
+            node = node.left
+            lspine += 1
+    if not rspine:
+        node = root
+        while node:
+            node = node.right
+            rspine += 1
 
-    return count
+    if lspine == rspine:
+        return 2**lspine - 1
+
+    return 1 + \
+        count_nodes(root.left, lspine=lspine-1) + \
+        count_nodes(root.right, rspine=rspine-1)
 
 
 # Tests
 a = Node()
 b = Node()
 c = Node()
-d = Node()
-e = Node()
 a.left = b
 a.right = c
+assert count_nodes(a) == 3
+d = Node()
 b.left = d
+assert count_nodes(a) == 4
+e = Node()
 b.right = e
 assert count_nodes(a) == 5
 f = Node()
