@@ -3281,3 +3281,13 @@ Given an array and a permutation, apply the permutation to the array. For exampl
 [Solution](solutions/problem_206.py)
 
 ---
+
+#### Problem 207
+
+This problem was asked by Dropbox.
+
+Given an undirected graph `G`, check whether it is bipartite. Recall that a graph is bipartite if its vertices can be divided into two independent sets, `U` and `V`, such that no edge connects vertices of the same set.
+
+[Solution](solutions/problem_207.py)
+
+---
