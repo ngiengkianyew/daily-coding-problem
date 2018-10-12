@@ -3303,3 +3303,13 @@ For example, given the linked list `5 -> 1 -> 8 -> 0 -> 3` and `k = 3`, the solu
 [Solution](solutions/problem_208.py)
 
 ---
+
+#### Problem 209
+
+This problem was asked by YouTube.
+
+Write a program that computes the length of the longest common subsequence of three given strings. For example, given "epidemiologist", "refrigeration", and "supercalifragilisticexpialodocious", it should return `5`, since the longest common subsequence is "eieio".
+
+[Solution](solutions/problem_209.py)
+
+---
