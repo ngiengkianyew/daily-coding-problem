@@ -6,7 +6,6 @@ def get_occurrences(string, pattern):
         if string[i:i+pl] == pattern:
             occurrences.append(i)
 
-    print(occurrences)
     return occurrences
 
 
