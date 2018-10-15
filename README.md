@@ -3338,3 +3338,15 @@ Given a string and a pattern, find the starting indices of all occurrences of th
 [Solution](solutions/problem_211.py)
 
 ---
+
+#### Problem 212
+
+This problem was asked by Dropbox.
+
+Spreadsheets often use this alphabetical encoding for its columns: "A", "B", "C", ..., "AA", "AB", ..., "ZZ", "AAA", "AAB", ....
+
+Given a column number, return its alphabetical column id. For example, given `1`, return "A". Given `27`, return "AA".
+
+[Solution](solutions/problem_212.py)
+
+---
