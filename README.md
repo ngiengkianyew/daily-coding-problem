@@ -3364,3 +3364,15 @@ For example, given "2542540123", you should return `['254.25.40.123', '254.254.0
 [Solution](solutions/problem_213.py)
 
 ---
+
+#### Problem 214
+
+This problem was asked by Stripe.
+
+Given an integer `n`, return the length of the longest consecutive run of `1`s in its binary representation.
+
+For example, given `156`, you should return `3`.
+
+[Solution](solutions/problem_214.py)
+
+---
