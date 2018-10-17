@@ -1,10 +1,8 @@
 def generate_valid_ips(string, curr, all_ips):
-    if len(curr) > 4:
+    if len(curr) > 4 or (len(curr) < 4 and not string):
         return
-    if len(curr) == 4 and not string:
+    elif len(curr) == 4 and not string:
         all_ips.add(".".join(curr))
-        return
-    elif not string:
         return
 
     def recurse(index):
@@ -12,11 +10,10 @@ def generate_valid_ips(string, curr, all_ips):
 
     recurse(1)
     first = int(string[0])
-    if first:
-        if len(string) > 1 and first > 0:
-            recurse(2)
-            if len(string) > 2 and first > 0 and first < 3:
-                recurse(3)
+    if first and len(string) > 1:
+        recurse(2)
+        if len(string) > 2 and first < 3:
+            recurse(3)
 
 
 def generate_valid_ip_helper(string):
@@ -26,7 +23,11 @@ def generate_valid_ip_helper(string):
 
 
 # Tests
-assert generate_valid_ip_helper("2542540123") == set(
-    ['254.25.40.123', '254.254.0.123'])
-assert generate_valid_ip_helper("0000") == set(['0.0.0.0'])
-assert generate_valid_ip_helper("255255255255") == set(['255.255.255.255'])
+assert generate_valid_ip_helper("2542540123") == \
+    {'254.25.40.123', '254.254.0.123'}
+assert generate_valid_ip_helper("0000") == \
+    {'0.0.0.0'}
+assert generate_valid_ip_helper("255255255255") == \
+    {'255.255.255.255'}
+assert generate_valid_ip_helper("100100110") == \
+    {'100.10.0.110', '10.0.100.110', '100.100.11.0', '100.100.1.10'}
