@@ -12,44 +12,44 @@ class Node:
         return str(self.iden)
 
 
+class Edge:
+    def __init__(self, src, tgt):
+        self.src = src
+        self.tgt = tgt
+
+    def __hash__(self):
+        return hash((self.src, self.tgt))
+
+    def __eq__(self, other):
+        return self.src == other.src and self.tgt == other.tgt
+
+    def __repr__(self):
+        return "{}->{}".format(self.src, self.tgt)
+
+    def reverse(self):
+        tmp_node = self.src
+        self.src = self.tgt
+        self.tgt = tmp_node
+
+
 class Graph:
     def __init__(self):
-        self.nodes = dict()
-        self.adjacency_matrix = None
+        self.nodes = set()
+        self.edges = set()
 
     def add_node(self, node):
         if node in self.nodes:
             return
-        self.nodes[node] = len(self.nodes)
-
-        if not self.adjacency_matrix:
-            self.adjacency_matrix = [[0]]
-        else:
-            for i in range(len(self.nodes) - 1):
-                self.adjacency_matrix[i] += [0]
-            self.adjacency_matrix.append([0] * len(self.nodes))
+        self.nodes.add(node)
 
     def add_edge(self, src_node, tgt_node):
-        self.adjacency_matrix[self.nodes[src_node]][self.nodes[tgt_node]] = 1
+        self.edges.add(Edge(src_node, tgt_node))
 
     def reverse_edges(self):
-        new_adj_matrix = [[0 for node in self.nodes] for node in self.nodes]
-
-        for i, row in enumerate(self.adjacency_matrix):
-            for k, _ in enumerate(row):
-                if self.adjacency_matrix[i][k]:
-                    new_adj_matrix[k][i] = 1
-
-        self.adjacency_matrix = new_adj_matrix
+        self.edges = [Edge(x.tgt, x.src) for x in self.edges]
 
     def get_edges(self):
-        edges = set()
-        node_index = {num: node for node, num in self.nodes.items()}
-        for i, row in enumerate(self.adjacency_matrix):
-            for k, _ in enumerate(row):
-                if self.adjacency_matrix[i][k]:
-                    edges.add("{}->{}".format(node_index[i], node_index[k]))
-        return edges
+        return self.edges
 
 
 # Tests
@@ -63,7 +63,9 @@ g.add_node(b)
 g.add_node(c)
 g.add_edge(a, b)
 g.add_edge(b, c)
-assert g.get_edges() == {'b->c', 'a->b'}
+edges = g.get_edges()
+assert Edge(a, b) in edges and Edge(b, c) in edges and len(edges) == 2
 
 g.reverse_edges()
-assert g.get_edges() == {'c->b', 'b->a'}
+edges = g.get_edges()
+assert Edge(b, a) in edges and Edge(c, b) in edges and len(edges) == 2
