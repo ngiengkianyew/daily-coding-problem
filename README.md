@@ -3484,3 +3484,13 @@ Write a program that returns the maximum amount of money you can win with certai
 [Solution](solutions/problem_220.py)
 
 ---
+
+#### Problem 221
+
+This problem was asked by Zillow.
+
+Let's define a "sevenish" number to be one which is either a power of `7`, or the sum of unique powers of `7`. The first few sevenish numbers are `1, 7, 8, 49`, and so on. Create an algorithm to find the `n`th sevenish number.
+
+[Solution](solutions/problem_221.py)
+
+---
