@@ -3546,3 +3546,15 @@ Bonus: Find an `O(log N)` solution if `k = 2`.
 [Solution](solutions/problem_225.py)
 
 ---
+
+#### Problem 226
+
+This problem was asked by Airbnb.
+
+You come across a dictionary of sorted words in a language you've never seen before. Write a program that returns the correct order of letters in this language.
+
+For example, given `['xww', 'wxyz', 'wxyw', 'ywx', 'ywz']`, you should return `['x', 'z', 'w', 'y']`.
+
+[Solution](solutions/problem_226.py)
+
+---
