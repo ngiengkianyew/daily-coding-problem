@@ -12,7 +12,7 @@ class Trie:
 
     def add_word(self, word):
         if not word:
-            self.letter_map['0'] = None
+            self.letter_map[WORD_END_CHAR] = None
             return
         letter = word[0]
 
@@ -71,7 +71,7 @@ def search_for_words(coord, dtrie, seen, board, sol_words, current):
 
     current += letter
     next_trie = dtrie.letter_map[letter]
-    if '0' in next_trie.letter_map:
+    if WORD_END_CHAR in next_trie.letter_map:
         # a word can end here
         sol_words.add(current)
         # shouldn't return because a valid word
