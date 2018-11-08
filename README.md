@@ -3667,3 +3667,13 @@ Recall that the minimum spanning tree is the subset of edges of a tree that conn
 [Solution](solutions/problem_234.py)
 
 ---
+
+#### Problem 235
+
+This problem was asked by Facebook.
+
+Given an array of numbers of length `N`, find both the minimum and maximum using less than `2 * (N - 2)` comparisons.
+
+[Solution](solutions/problem_235.py)
+
+---
