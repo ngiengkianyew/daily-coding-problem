@@ -3686,6 +3686,6 @@ You are given a list of N points `(x1, y1), (x2, y2), ..., (xN, yN)` representin
 
 Determine if a new point p lies inside this polygon. (If p is on the boundary of the polygon, you should return False).
 
-[Solution](solutions/problem_236.py)
+[Solution](solutions/problem_236.md)
 
 ---
