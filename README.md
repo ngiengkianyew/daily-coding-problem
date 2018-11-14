@@ -3730,12 +3730,30 @@ Given perfect knowledge of the sequence of cards in the deck, implement a blackj
 
 #### Problem 239
 
+This problem was asked by Uber.
+
+One way to unlock an Android phone is through a pattern of swipes across a 1-9 keypad.
+
+For a pattern to be valid, it must satisfy the following:
+
+All of its keys must be distinct.
+It must not connect two keys by jumping over a third key, unless that key has already been used.
+For example, `4 - 2 - 1 - 7` is a valid pattern, whereas `2 - 1 - 7` is not.
+
+Find the total number of valid unlock patterns of length N, where `1 <= N <= 9`.
+
+[Solution](solutions/problem_239.py)
+
+---
+
+#### Problem 240
+
 This problem was asked by Spotify.
 
 There are `N` couples sitting in a row of length `2 * N`. They are currently ordered randomly, but would like to rearrange themselves so that each couple's partners can sit side by side.
 
 What is the minimum number of swaps necessary for this to happen?
 
-[Solution](solutions/problem_239.py)
+[Solution](solutions/problem_240.py)
 
 ---
