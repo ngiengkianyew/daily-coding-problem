@@ -3847,3 +3847,13 @@ Given a binary tree, determine whether or not it is height-balanced. A height-ba
 [Solution](solutions/problem_247.py)
 
 ---
+
+#### Problem 248
+
+This problem was asked by Nvidia.
+
+Find the maximum of two numbers without using any if-else statements, branching, or direct comparisons.
+
+[Solution](solutions/problem_248.py)
+
+---
