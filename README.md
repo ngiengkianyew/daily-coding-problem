@@ -3857,3 +3857,13 @@ Find the maximum of two numbers without using any if-else statements, branching,
 [Solution](solutions/problem_248.py)
 
 ---
+
+### Problem 249
+
+This problem was asked by Salesforce.
+
+Given an array of integers, find the maximum XOR of any two elements.
+
+[Solution](solutions/problem_249.py)
+
+---
