@@ -3942,23 +3942,23 @@ Recall that a full binary tree is one in which each node is either a leaf node, 
 For example, given the following tree:
 
 ```
-         0
+         a
       /     \
-    1         2
+    b         c
   /            \
-3                 4
+d                 e
   \             /   \
-    5          6     7
+    f          g     h
 ```
 
 You should convert it to:
 
 ```
-     0
+     a
   /     \
-5         4
+f         e
         /   \
-       6     7
+       g     h
 ```
 [Solution](solutions/problem_254.py)
 
