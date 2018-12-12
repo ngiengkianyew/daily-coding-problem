@@ -4187,3 +4187,13 @@ You should return `True`, since the bishop is attacking the king diagonally.
 [Solution](solutions/problem_267.py)
 
 ---
+
+### Problem 268
+
+This problem was asked by Indeed.
+
+Given a 32-bit positive integer `N`, determine whether it is a power of four in faster than `O(log N)` time.
+
+[Solution](solutions/problem_268.py)
+
+---
