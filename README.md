@@ -4209,7 +4209,7 @@ You are given an string representing the initial conditions of some dominoes. Ea
 
 Determine the orientation of each tile when the dominoes stop falling. Note that if a domino receives a force from the left and right side simultaneously, it will remain upright.
 
-For example, given the string `.L.R....L`, you should return `LL.RRRLLL.`
+For example, given the string `.L.R....L`, you should return `LL.RRRLLL`.
 
 Given the string `..R...L.L`, you should return `..RR.LLLL`.
 
