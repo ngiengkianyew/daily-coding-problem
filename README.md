@@ -4244,3 +4244,15 @@ You should return `9`, because propagating the message from `0 -> 2 -> 3 -> 4` w
 [Solution](solutions/problem_270.py)
 
 ---
+
+### Problem 271
+
+This problem was asked by Netflix.
+
+Given a sorted list of integers of length `N`, determine if an element `x` is in the list without performing any multiplication, division, or bit-shift operations.
+
+Do this in `O(log N)` time.
+
+[Solution](solutions/problem_271.py)
+
+---
