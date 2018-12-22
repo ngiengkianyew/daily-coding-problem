@@ -4356,3 +4356,13 @@ Write a program that takes in an array of integers representing byte values, and
 [Solution](solutions/problem_277.py)
 
 ---
+
+### Problem 278
+
+This problem was asked by Amazon.
+
+Given an integer `N`, construct all possible binary search trees with `N` nodes.
+
+[Solution](solutions/problem_278.py)
+
+---
