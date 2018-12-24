@@ -4391,3 +4391,13 @@ Given a friendship list such as the one above, determine the number of friend gr
 [Solution](solutions/problem_279.py)
 
 ---
+
+### Problem 280
+
+This problem was asked by Pandora.
+
+Given an undirected graph, determine if it contains a cycle.
+
+[Solution](solutions/problem_280.py)
+
+---
