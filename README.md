@@ -4664,7 +4664,7 @@ For example, given the stones `[1, 1, 3, 3, 2, 1]`, the optimal solution is to p
 
 ---
 
-### Problem 293
+### Problem 294
 
 This problem was asked by Square.
 
@@ -4689,6 +4689,6 @@ paths = {
 
 In this case, the shortest valid path would be `0 -> 2 -> 4 -> 0`, with a distance of `28`.
 
-[Solution](solutions/problem_293.py)
+[Solution](solutions/problem_294.py)
 
 ---
