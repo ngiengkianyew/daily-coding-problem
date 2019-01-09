@@ -4717,3 +4717,13 @@ Bonus: Can you do this using only `O(k)` space?
 [Solution](solutions/problem_295.py)
 
 ---
+
+### Problem 296
+
+This problem was asked by Etsy.
+
+Given a sorted array, convert it into a height-balanced binary search tree.
+
+[Solution](solutions/problem_296.py)
+
+---
