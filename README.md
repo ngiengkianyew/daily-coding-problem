@@ -4815,3 +4815,22 @@ The check method may return occasional false positives (in other words, incorrec
 [Solution](solutions/problem_301.py)
 
 ---
+
+### Problem 302
+
+This problem was asked by Uber.
+
+You are given a 2-d matrix where each cell consists of either `/`, `\`, or an empty space. Write an algorithm that determines into how many regions the slashes divide the space.
+
+For example, suppose the input for a three-by-six grid is the following:
+```
+\    /
+ \  /
+  \/
+```
+
+Considering the edges of the matrix as boundaries, this divides the grid into three triangles, so you should return `3`.
+
+[Solution](solutions/problem_302.py)
+
+---
