@@ -4561,14 +4561,14 @@ This problem was asked by Google.
 
 The game of Nim is played as follows. Starting with three heaps, each containing a variable number of items, two players take turns removing one or more items from a single pile. The player who eventually is forced to take the last stone loses. For example, if the initial heap sizes are 3, 4, and 5, a game could be played as shown below:
 
-|  A  |  B  |  C  |
-|  -  |  -  |  -  |
-|  3  |  4  |  5  |
-|  3  |  1  |  5  |
-|  3  |  1  |  3  |
-|  0  |  1  |  3  |
-|  0  |  1  |  0  |
-|  0  |  0  |  0  |
+| A   | B   | C   |
+| --- | --- | --- |
+| 3   | 4   | 5   |
+| 3   | 1   | 5   |
+| 3   | 1   | 3   |
+| 0   | 1   | 3   |
+| 0   | 1   | 0   |
+| 0   | 0   | 0   |
 
 In other words, to start, the first player takes three items from pile `B`. The second player responds by removing two stones from pile `C`. The game continues in this way until player one takes last stone and loses.
 
@@ -4965,5 +4965,19 @@ A B C C
 Given an integer N, determine in how many ways this task is possible.
 
 [Solution](solutions/problem_312.py)
+
+---
+
+### Problem 313
+
+This problem was asked by Citrix.
+
+You are given a circular lock with three wheels, each of which display the numbers `0` through `9` in order. Each of these wheels rotate clockwise and counterclockwise.
+
+In addition, the lock has a certain number of "dead ends", meaning that if you turn the wheels to one of these combinations, the lock becomes stuck in that state and cannot be opened.
+
+Let us consider a "move" to be a rotation of a single wheel by one digit, in either direction. Given a lock initially set to `000`, a target combination, and a list of dead ends, write a function that returns the minimum number of moves required to reach the target state, or `None` if this is impossible.
+
+[Solution](solutions/problem_313.py)
 
 ---
