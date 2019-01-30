@@ -5015,3 +5015,15 @@ Write a program to determine whether a given input is a Toeplitz matrix.
 [Solution](solutions/problem_315.py)
 
 ---
+
+### Problem 316
+
+This problem was asked by Snapchat.
+
+You are given an array of length N, where each element i represents the number of ways we can produce i units of change. For example, [1, 0, 1, 1, 2] would indicate that there is only one way to make 0, 2, or 3 units, and two ways of making 4 units.
+
+Given such an array, determine the denominations that must be in use. In the case above, for example, there must be coins with value 2, 3, and 4.
+
+[Solution](solutions/problem_316.py)
+
+---
