@@ -13,8 +13,7 @@ def get_ways_to_produce(num: int, factors: List[int]):
     return ways
 
 
-def get_denominators(ways_to_produce: List[int],
-                     known_denoms: List[int] = list()):
+def get_denominators(ways_to_produce: List[int]):
     factors = [i for i, num in enumerate(ways_to_produce)
                if (num == 1 and i > 0)]
 
