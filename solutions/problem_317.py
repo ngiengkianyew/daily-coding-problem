@@ -17,7 +17,7 @@ def bitwise_and(start, end):
     power_diff = ceil(log2(diff))
     power_end = ceil(log2(end))
 
-    result = start & ((2**power_end - 1) - (2**power_diff - 1))
+    result = start & (2**power_end - 2**power_diff)
     return result
 
 
