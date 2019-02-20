@@ -5333,3 +5333,13 @@ For example, if `N = 3`, and our integers are `[1, 2, 3]`, there are two ways, s
 [Solution](solutions/problem_336.py)
 
 ---
+
+### Problem 337
+
+This problem was asked by Apple.
+
+Given a linked list, uniformly shuffle the nodes. What if we want to prioritize space over time?
+
+[Solution](solutions/problem_337.py)
+
+---
