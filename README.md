@@ -5427,3 +5427,24 @@ Implement your own version of reduce.
 [Solution](solutions/problem_342.py)
 
 ---
+
+### Problem 343
+
+This problem was asked by Google.
+
+Given a binary search tree and a range `[a, b]` (inclusive), return the sum of the elements of the binary search tree within the range.
+
+For example, given the following tree:
+```
+    5
+   / \
+  3   8
+ / \ / \
+2  4 6  10
+```
+
+and the range `[4, 9]`, return `23 (5 + 4 + 6 + 8)`.
+
+[Solution](solutions/problem_343.py)
+
+---
