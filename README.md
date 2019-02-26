@@ -5448,3 +5448,26 @@ and the range `[4, 9]`, return `23 (5 + 4 + 6 + 8)`.
 [Solution](solutions/problem_343.py)
 
 ---
+
+### Problem 344
+
+This problem was asked by Adobe.
+
+You are given a tree with an even number of nodes. Consider each connection between a parent and child node to be an "edge". You would like to remove some of these edges, such that the disconnected subtrees that remain each have an even number of nodes.
+
+For example, suppose your input was the following tree:
+```
+   1
+  / \ 
+ 2   3
+    / \ 
+   4   5
+ / | \
+6  7  8
+```
+
+In this case, removing the edge `(3, 4)` satisfies our requirement.
+
+[Solution](solutions/problem_343.py)
+
+---
