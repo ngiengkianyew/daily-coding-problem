@@ -5468,6 +5468,8 @@ For example, suppose your input was the following tree:
 
 In this case, removing the edge `(3, 4)` satisfies our requirement.
 
-[Solution](solutions/problem_343.py)
+Write a function that returns the maximum number of edges you can remove while still satisfying this requirement.
+
+[Solution](solutions/problem_344.py)
 
 ---
