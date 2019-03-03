@@ -5585,7 +5585,7 @@ One version of the algorithm is as follows:
     ```
 
 If you don't have three numbers yet, append zeros until you do. Keep the first three numbers.
-Using this scheme, Jackson and Jaxen both map to J250.
+Using this scheme, `Jackson` and `Jaxen` both map to `J250`.
 
 Implement Soundex.
 
