@@ -5625,6 +5625,6 @@ Suppose you are given a list of meanings for several words, formatted like so:
 
 Given a sentence, most of whose words are contained in the meaning list above, create an algorithm that determines the likely sense of each possibly ambiguous word.
 
-[Solution](solutions/problem_351.py)
+[Solution](solutions/problem_351.md)
 
 ---
