@@ -5679,6 +5679,6 @@ Some questions you may want to consider as part of your solution are:
 - How will you deal with your client machines being blacklisted?
 - How can you update your database when Wikipedia pages are added or updated?
 
-[Solution](solutions/problem_354.py)
+[Solution](solutions/problem_354.md)
 
 ---
