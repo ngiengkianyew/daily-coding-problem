@@ -5698,3 +5698,15 @@ For example, suppose your input is `[1.3, 2.3, 4.4]`. In this case you cannot do
 [Solution](solutions/problem_355.py)
 
 ---
+
+### Problem 356
+
+This problem was asked by Netflix.
+
+Implement a queue using a set of fixed-length arrays.
+
+The queue should support `enqueue`, `dequeue`, and `get_size` operations.
+
+[Solution](solutions/problem_356.py)
+
+---
