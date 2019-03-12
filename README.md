@@ -5729,3 +5729,17 @@ Given this representation, determine the depth of the tree.
 [Solution](solutions/problem_357.py)
 
 ---
+
+### Problem 358
+
+This problem was asked by Dropbox.
+
+Create a data structure that performs all the following operations in `O(1)` time:
+- `plus`: Add a key with value 1. If the key already exists, increment its value by one.
+- `minus`: Decrement the value of a key. If the key's value is currently 1, remove it.
+- `get_max`: Return a key with the highest value.
+- `get_min`: Return a key with the lowest value.
+
+[Solution](solutions/problem_358.py)
+
+---
