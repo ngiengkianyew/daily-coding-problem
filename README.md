@@ -5743,3 +5743,17 @@ Create a data structure that performs all the following operations in `O(1)` tim
 [Solution](solutions/problem_358.py)
 
 ---
+
+### Problem 359
+
+This problem was asked by Slack.
+
+You are given a string formed by concatenating several words corresponding to the integers zero through nine and then anagramming.
+
+For example, the input could be 'niesevehrtfeev', which is an anagram of 'threefiveseven'. Note that there can be multiple instances of each integer.
+
+Given this string, return the original integers in sorted order. In the example above, this would be `357`.
+
+[Solution](solutions/problem_359.py)
+
+---
