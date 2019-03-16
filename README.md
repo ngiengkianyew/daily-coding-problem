@@ -5791,3 +5791,15 @@ However, it is impossible for any key to result in the following scores, so in t
 [Solution](solutions/problem_361.py)
 
 ---
+
+### Problem 362
+
+This problem was asked by Twitter.
+
+A strobogrammatic number is a positive number that appears the same after being rotated `180` degrees. For example, `16891` is strobogrammatic.
+
+Create a program that finds all strobogrammatic numbers with N digits.
+
+[Solution](solutions/problem_362.py)
+
+---
